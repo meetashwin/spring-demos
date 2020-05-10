@@ -9,3 +9,12 @@
 ```
 mvn spring-boot:run
 ```
+
+### How to use?
+
+Send a message to topic using this API call
+```
+curl -X POST -F 'message=test' http://localhost:9000/kafka/publish
+```
+
+
